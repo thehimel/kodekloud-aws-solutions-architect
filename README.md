@@ -20,3 +20,7 @@
 * Take advantage of the AWS Free Tier to practice and learn without incurring costs.
 * If you're using a free tier account, be mindful of the limits and costs associated with the services you use.
 * You can use AWS Budgets to monitor your costs and set alerts when they exceed a certain threshold.
+
+## Tools
+
+* [AI Terraform Diagram Generator](https://www.eraser.io/ai/terraform-diagram-generator)
