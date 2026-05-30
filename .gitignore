@@ -208,3 +208,10 @@ __marimo__/
 .idea/
 .vscode/
 .cursor/
+
+# Terraform
+**/.terraform/
+**/.terraform.lock.hcl
+**/.terraform.tfstate.lock.info
+**/terraform.tfstate
+**/terraform.tfstate.backup
