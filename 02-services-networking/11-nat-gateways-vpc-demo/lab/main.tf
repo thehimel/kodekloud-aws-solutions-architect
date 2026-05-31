@@ -158,7 +158,7 @@ resource "aws_instance" "public_ec2" {
   subnet_id              = aws_subnet.public.id
   vpc_security_group_ids = [aws_security_group.public_ec2.id]
 
-  tags = { Name = "ec2-public" }
+  tags = { Name = "public-ec2" }
 }
 
 resource "aws_instance" "private_ec2" {
@@ -167,7 +167,7 @@ resource "aws_instance" "private_ec2" {
   subnet_id              = aws_subnet.private.id
   vpc_security_group_ids = [aws_security_group.private_ec2.id]
 
-  tags = { Name = "ec2-private" }
+  tags = { Name = "private-ec2" }
 }
 
 # -------------------------------------------------------------------
