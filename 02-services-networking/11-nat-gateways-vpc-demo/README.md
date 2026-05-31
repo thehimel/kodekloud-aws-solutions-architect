@@ -6,6 +6,9 @@
 
 ## Lab Diagram
 
+![lab-dark.png](assets/lab-dark.png)
+![lab-light.png](assets/lab-light.png)
+
 ## Architecture
 
 ![11-nat-gateways-vpc-demo.jpg](../assets/11-nat-gateways-vpc-demo.jpg)
