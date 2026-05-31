@@ -6,7 +6,7 @@
 
 ## Lab Diagram
 
-![lab-light.png](assets/lab-light.png)
+![diagram.png](lab/diagram.png)
 
 ## Architecture
 
