@@ -102,7 +102,7 @@ resource "aws_security_group" "public_ec2" {
   vpc_id      = aws_vpc.main.id
 
   ingress {
-    description = "Allow all inbound (Internet -> EC2)"
+    description = "Allow all inbound (Internet to EC2)"
     from_port   = 0
     to_port     = 0
     protocol    = "-1"
@@ -110,7 +110,7 @@ resource "aws_security_group" "public_ec2" {
   }
 
   egress {
-    description = "Allow all outbound (EC2 -> Internet)"
+    description = "Allow all outbound (EC2 to Internet)"
     from_port   = 0
     to_port     = 0
     protocol    = "-1"
@@ -129,7 +129,7 @@ resource "aws_security_group" "private_ec2" {
   # No ingress rule -> inbound from internet is blocked by default
 
   egress {
-    description = "Allow all outbound (EC2 -> Internet via NAT)"
+    description = "Allow all outbound (EC2 to Internet via NAT)"
     from_port   = 0
     to_port     = 0
     protocol    = "-1"
