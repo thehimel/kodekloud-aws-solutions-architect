@@ -3,7 +3,6 @@
 > Copyright: Himel Das. Content is unique.
 
 ![img_14.png](assets/img_14.png)
-![img_15.png](assets/img_15.png)
 
 ## Lab Diagram
 
