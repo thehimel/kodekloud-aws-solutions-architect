@@ -4,6 +4,8 @@
 
 ![diagram.png](assets/diagram.png)
 
+## Lab Diagram
+
 ## Architecture
 
 ![11-nat-gateways-vpc-demo.jpg](../assets/11-nat-gateways-vpc-demo.jpg)
